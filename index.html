@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vormenruil Spel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Vormenruil Spel 🔄</h1>
+        <p id="status-message">Speler 1 is aan de beurt. Kies een steen uit je hand.</p>
+    </header>
+
+    <div id="game-container">
+        <div class="player-area" id="player-1-area">
+            <h2>Speler 1 Hand</h2>
+            <div class="hand" id="player-1-hand">
+                </div>
+        </div>
+
+        <div id="center-area">
+            <h2>Centrum Stenen</h2>
+            <div class="hand" id="center-stones">
+                </div>
+            <button id="reset-button" style="display:none;">Nieuw Spel</button>
+        </div>
+
+        <div class="player-area" id="player-2-area">
+            <h2>Speler 2 Hand</h2>
+            <div class="hand" id="player-2-hand">
+                </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
